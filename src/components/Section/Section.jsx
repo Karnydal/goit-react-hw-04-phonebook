@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types';
-import { Section } from './Section.styled'
+import { Section } from './Section.styled';
 
-export function SectionRender ({ children }) {
-    return <Section>{children}</Section>;
-};
+export function SectionRender({ children }) {
+  return <Section>{children}</Section>;
+}
 
-SectionRender.propTypes = { 
+SectionRender.propTypes = {
   children: PropTypes.node,
 };
